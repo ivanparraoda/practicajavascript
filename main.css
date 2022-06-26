@@ -1,0 +1,60 @@
+:root{
+        
+--Softviolet: hsl(273, 75%, 66%);
+--Softblue: hsl(240, 73%, 65%);
+--Verydarkgrayishblue: hsl(237, 12%, 33%);
+--Darkgrayishblue: hsl(240, 6%, 50%);
+--Verydarkdesaturatedblue: hsl(238, 29%, 16%);
+--Softred: hsl(14, 88%, 65%);
+--Verydarkgrayishblue: hsl(237, 12%, 33%);
+--Darkgrayishblue: hsl(240, 6%, 50%);
+--Lightgrayishblue: hsl(240, 5%, 91%);
+}
+
+
+body{
+
+   
+    background:linear-gradient(hsl(273, 75%, 66%),hsl(240, 73%, 65%));
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-size: 20px;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.card{
+    background-color: white;
+    border-radius: 13px;
+    padding: 30px;
+
+}
+
+.imagen{
+    width: 100%;
+    position: relative;
+    
+}
+.wrapper{
+    display: flex;
+    position: absolute;
+}
+
+h1{
+    text-align: center;
+}
+
+.question2{
+    display: flex;
+    gap: 30px;
+}
+
+button{
+    background-color: white;
+    border: none;
+}
+
+button:hover{
+    background-color: aqua;
+    display: inline-block;
+}
